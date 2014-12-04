@@ -1,26 +1,36 @@
-<div class="row show-grid">
-    <div class="row show-grid">
-        <div class="col-xs-6">.col-md-1</div>
-        <div class="col-xs-6">
-            <form class="form-inline" role="form">
-                <div class="form-group">
-                    <div class="input-group">
-                        <label class="sr-only" for="exampleInputEmail2">Email address</label>
-                        <div class="input-group-addon">Usuario</div>
-                        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Usuario">
-                    </div>
+<div class="row show-grid col-xs-12" STYLE="background-color:#F8E6E0">
+    <div class="col-xs-6">
+        <img style="width:100px; height: 100px" src="<?php echo BASE_URL.'Vistas/index/img/unsm.png';?>" >
+        <img style="width:100px; height: 100px" src="<?php echo BASE_URL.'Vistas/index/img/fisi.png';?>" >
+    </div>
+    
+   <div class="col-xs-6 m">
+        <form class="form-inline" role="form" >
+            <DIV class="col-xs-8">
+            <div class="form-group">
+                <div class="input-group">
+                    <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                    <div class="input-group-addon">Usuario&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Usuario">
                 </div>
-                <div class="form-group">
+            </div>
+            <div class="form-group">
+                <div class="input-group">
                     <label class="sr-only" for="exampleInputPassword2">Password</label>
+                    <div class="input-group-addon">Contraseña</div>
                     <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password">
                 </div>
-                <div class="checkbox">
-                    <label>
-                        <input type="checkbox"> Remember me
-                    </label>
-                </div>
-                <button type="submit" class="btn btn-default">Sign in</button>
-            </form>
+            </div>
+            </DIV>
+<!--            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> Recordar contaseña
+                </label>
+            </div>-->
+<DIV class="col-xs-4" style="alignment-adjust: center; margin-top: 15px">
+            <button type="submit" class="btn btn-default glyphicon glyphicon-log-in" rowspan="2">&nbsp;IINGRESAR</button>
+</DIV>
+        </form>
         </div>
     </div>
 
