@@ -1,0 +1,26 @@
+.kreg
+{
+    padding: 20px;
+    background: #f2fdfe;
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid #7ee7fd;
+    box-sizing: border-box;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+}
+
+.ktitulo
+{
+    font-family: cursive,serif;
+    font-size: 30px;
+    color: #666;
+    text-align: center;
+    display: block;
+}
+.kbien
+{
+    width: 75%;
+    
+}

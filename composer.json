@@ -1,0 +1,20 @@
+{
+    "name": "lp4/mvc",
+    "description": "mini-framework para el curso de lp4",
+    "require": {
+        "illuminate/database": "~4.2",
+        "chumper/datatable": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "AplicacionParrillada\\": "mvc"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aplicacion Parrillada",
+            "email": "AplicacionParrillada@unsm.edu.pe"
+        }
+    ]
+}
