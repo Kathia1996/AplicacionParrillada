@@ -19,11 +19,15 @@
   color: #2E3133;
   }
   
+  #body_principal{
+      background-image: url("../img/restaurant_icons.png");
+  }
+  
 .kreg
 {
     padding: 20px;
     background: #f2fdfe;
-    width: 500px;
+    
     margin: 0 auto;
     padding: 20px;
     border-radius: 20px;
@@ -42,6 +46,13 @@
 }
 .kbien
 {
-    width: 75%;
-    
+    width: 75%;   
+}
+.kimg
+{
+    background-image: url("../img/fondo.jpg");
+}
+.kimgen{
+    -webkit-box-shadow: 10px 10px 20px 8px #9E9E9E;
+box-shadow: 10px 10px 20px 8px #9E9E9E;
 }

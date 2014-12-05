@@ -24,7 +24,7 @@
         <?php endfor; ?>
     <?php endif; ?>
 </head>
-<body >
+    <body id="body_principal" >
 <div id="principal" background="fondo.jpg">
     <div class="container show-top-margin separate-rows tall-rows">
   <div class="row show-grid">

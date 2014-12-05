@@ -11,7 +11,41 @@ class Vista
         $this->_controlador = $request->getControlador();
     }
 
-    public function renderizar($vista, $item = false)
+    public function renderizar($vista, $item = "")
+    {
+        print_r( $items);
+
+        $ruta = ROOT . 'Vistas' . DS . $this->_controlador . DS . $vista . '.php';
+        $js = array();
+        $css = array();
+//         $item = array();
+      
+        if (count($this->_js)) {
+            $js = $this->_js;
+        }
+        if (count($this->_css)) {
+            $css = $this->_css;
+        }
+         ob_start();
+        @extract( $item, EXTR_OVERWRITE );//para enviar datos
+        $_params = array(
+            'ruta_css' => BASE_URL . 'lib/css/',
+            'ruta_js' => BASE_URL . 'lib/js/',
+            'ruta_img' => BASE_URL . 'lib/img/',
+            'js' => $js,
+            'css' => $css
+        );
+
+
+        if (is_readable($ruta)) {
+            include_once ROOT.'Vistas'.DS.'cabecera.php';
+            include_once $ruta;
+            include_once ROOT.'Vistas'.DS.'pie.php';
+        } else {
+            throw new Exception('Error de vista no encontrada');
+        }
+    }
+    public function renderizar_principal($vista, $item = false)
     {
 
         $ruta = ROOT . 'Vistas' . DS . $this->_controlador . DS . $vista . '.php';
@@ -33,9 +67,9 @@ class Vista
 
 
         if (is_readable($ruta)) {
-            include_once ROOT.'Vistas'.DS.'cabecera.php';
+            include_once ROOT.'Vistas'.DS.'cabecera_principal.php';
             include_once $ruta;
-            include_once ROOT.'Vistas'.DS.'pie.php';
+            include_once ROOT.'Vistas'.DS.'pie_principal.php';
         } else {
             throw new Exception('Error de vista no encontrada');
         }

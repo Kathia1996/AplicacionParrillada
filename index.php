@@ -30,10 +30,11 @@ try {
     echo $r->getControlador() . '<br/>';
     echo $r->getMetodo() . '<br/>';
     print_r($r->getArgumentos());*/
-
+error_reporting(E_ALL ^ ( E_NOTICE | E_WARNING ));
     Bootstrap::run(new Request());
 
 } catch (Exception $e) {
     echo($e->getMessage());
 }
+
 
