@@ -1,5 +1,6 @@
 
 <div class="row show-grid">
+    <div class="col-xs-12">.col-md-1</div>
 </div>
 </div> <!-- de aqui en adelante modifique-->
 <div align="center" id="footer">

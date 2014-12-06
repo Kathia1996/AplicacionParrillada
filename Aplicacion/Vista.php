@@ -13,9 +13,10 @@ class Vista
 
     public function renderizar($vista, $item = "")
     {
-        print_r( $items);
-
-        $ruta = ROOT . 'Vistas' . DS . $this->_controlador . DS . $vista . '.php';
+        $v=$vista;
+        $vista=explode("/",$vista);
+        if(count($vista)>=2){$ruta = ROOT . 'Vistas' . DS .  $v . '.php';}
+        else{ $ruta = ROOT . 'Vistas' . DS . $this->_controlador . DS . $vista[0] . '.php';}
         $js = array();
         $css = array();
 //         $item = array();
@@ -41,6 +42,40 @@ class Vista
             include_once ROOT.'Vistas'.DS.'cabecera.php';
             include_once $ruta;
             include_once ROOT.'Vistas'.DS.'pie.php';
+        } else {
+            throw new Exception('Error de vista no encontrada');
+        }
+    }
+    public function renderizarPartial($vista, $item = "")
+    {        
+//        echo "aki<pre>";print_r($item);exit;
+        $v=$vista;
+        $vista=explode("/",$vista);
+        if(count($vista)>=2){$ruta = ROOT . 'Vistas' . DS .  $v . '.php';}
+        else{ $ruta = ROOT . 'Vistas' . DS . $this->_controlador . DS . $vista[0] . '.php';}
+        $js = array();
+        $css = array();
+//         $item = array();
+      
+        if (count($this->_js)) {
+            $js = $this->_js;
+        }
+        if (count($this->_css)) {
+            $css = $this->_css;
+        }
+         ob_start();
+        @extract( $item, EXTR_OVERWRITE );//para enviar datos
+        $_params = array(
+            'ruta_css' => BASE_URL . 'lib/css/',
+            'ruta_js' => BASE_URL . 'lib/js/',
+            'ruta_img' => BASE_URL . 'lib/img/',
+            'js' => $js,
+            'css' => $css
+        );
+
+
+        if (is_readable($ruta)) {
+            include_once $ruta;
         } else {
             throw new Exception('Error de vista no encontrada');
         }

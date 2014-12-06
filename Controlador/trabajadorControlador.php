@@ -18,7 +18,6 @@ class trabajadorControlador extends Controlador{
     public function index()
     {
         echo "soy el controlador del trabajador y luego voy a cargar mi vista";
-        $this->_vista->renderizar('index');
     }
 
     public function show($id)

@@ -17,8 +17,8 @@ class eventoControlador extends Controlador{
 
     public function index()
     {
+        $data['SemestreAcademico'] = $this->Select(array('id' => 'cliente', 'name' => 'cliente','class'=>'chzn-select', 'table' => 'cliente', 'code' => $semestreUltimo, 'value' => 'idcliente', 'option' => 'nombres_apellidos'));
         echo "soy el controlador y luego voy a cargar mi vista";
-        $this->_vista->renderizar('index');
     }
 
     public function show($id)

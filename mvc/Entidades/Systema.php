@@ -16,3 +16,4 @@ class Systema extends Model
     protected $timestamp = false;
     
 } 
+?>

@@ -12,10 +12,10 @@ function paginacion(page, datos, DivPrint) {
     });
 }
 var cerrarSession = function() {
-    $.post('../index.php/user/logout', '', function(data)
+    $.post('usuarios/logout', '', function(data)
     {
         if (data.rep == 'ok') {
-            window.location = '../';
+            window.location = data.url;
         }
     }, 'json');
 }
@@ -27,6 +27,6 @@ var url = function(page)
     });
 } 
 $(function () {
-                    $("#datepicker").datepicker();        
+                    $("#datepicker").datepicker();      
+                     
                 });
-                

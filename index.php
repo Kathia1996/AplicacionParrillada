@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 define('DS', DIRECTORY_SEPARATOR); // guardamos '/'
 define('ROOT', realpath(dirname(__FILE__)) . DS); //ruta raiz de nuestra aplicacion
 define('APP_PATH', ROOT . 'Aplicacion' . DS); // ruta del directorio de las aplicaciones

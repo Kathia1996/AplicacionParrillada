@@ -1,33 +1,33 @@
 .m
-{
-    border: 1px solid #DBE1EB;
-    font-size: -2px;
-    font-family: Grabriola;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -o-border-radius: 4px;
-    background: #FFFFFF;
-    background: linear-gradient(left, #FFFFFF, #F7F9FA);
-    background: -moz-linear-gradient(left, #FFFFFF, #F7F9FA);
-    background: -webkit-linear-gradient(left, #FFFFFF, #F7F9FA);
-    background: -o-linear-gradient(left, #FFFFFF, #F7F9FA);
-    color: #2E3133;
-}
-
-#body_principal{
-    background-image: url("../img/restaurant_icons.png");
-}
-
+  {
+  border: 1px solid #DBE1EB;
+  font-size: -2px;
+  font-family: Grabriola;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  background: #FFFFFF;
+  background: linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -moz-linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -webkit-linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -o-linear-gradient(left, #FFFFFF, #F7F9FA);
+  color: #2E3133;
+  }
+  
+  #body_principal{
+      background-image: url("../img/restaurant_icons.png");
+  }
+  
 .kreg
 {
     padding: 20px;
     background: #f2fdfe;
-
+    
     margin: 0 auto;
     padding: 20px;
     border-radius: 20px;
@@ -54,8 +54,9 @@
 }
 .kimgen{
     -webkit-box-shadow: 10px 10px 20px 8px #9E9E9E;
-    box-shadow: 10px 10px 20px 8px #9E9E9E;
+box-shadow: 10px 10px 20px 8px #9E9E9E;
 }
+
 .kcentrar
 {
     display:block;

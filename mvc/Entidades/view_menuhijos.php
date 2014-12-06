@@ -14,5 +14,6 @@ class view_menuhijos extends Model
     protected $table = 'view_menuhijos';
     protected $primaryKey = 'idmodulo';
     protected $timestamp = false;
-    
+    public function er(){
+    }
 }
