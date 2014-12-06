@@ -1,33 +1,33 @@
 .m
-  {
-  border: 1px solid #DBE1EB;
-  font-size: -2px;
-  font-family: Grabriola;
-  padding-left: 0px;
-  padding-right: 0px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-radius: 4px;
-  -moz-border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -o-border-radius: 4px;
-  background: #FFFFFF;
-  background: linear-gradient(left, #FFFFFF, #F7F9FA);
-  background: -moz-linear-gradient(left, #FFFFFF, #F7F9FA);
-  background: -webkit-linear-gradient(left, #FFFFFF, #F7F9FA);
-  background: -o-linear-gradient(left, #FFFFFF, #F7F9FA);
-  color: #2E3133;
-  }
-  
-  #body_principal{
-      background-image: url("../img/restaurant_icons.png");
-  }
-  
+{
+    border: 1px solid #DBE1EB;
+    font-size: -2px;
+    font-family: Grabriola;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    background: #FFFFFF;
+    background: linear-gradient(left, #FFFFFF, #F7F9FA);
+    background: -moz-linear-gradient(left, #FFFFFF, #F7F9FA);
+    background: -webkit-linear-gradient(left, #FFFFFF, #F7F9FA);
+    background: -o-linear-gradient(left, #FFFFFF, #F7F9FA);
+    color: #2E3133;
+}
+
+#body_principal{
+    background-image: url("../img/restaurant_icons.png");
+}
+
 .kreg
 {
     padding: 20px;
     background: #f2fdfe;
-    
+
     margin: 0 auto;
     padding: 20px;
     border-radius: 20px;
@@ -54,5 +54,41 @@
 }
 .kimgen{
     -webkit-box-shadow: 10px 10px 20px 8px #9E9E9E;
-box-shadow: 10px 10px 20px 8px #9E9E9E;
+    box-shadow: 10px 10px 20px 8px #9E9E9E;
+}
+.kcentrar
+{
+    display:block;
+    margin: auto; 
+}
+
+.klink
+{
+    color: #127D6F;
+    font: bolder 15px Forte;
+    border-radius: 20px;
+}
+
+.klink>hover
+{
+    color: red;
+    background: #FFF;
+    font: bolder 15px Forte;
+}
+
+.knavprincipal
+{
+    
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    background: #FFF;
+    opacity : 0.5;
+    filter:  alpha(opacity=50);
+    border: 2px #D3C2C2  double;
+-webkit-box-shadow: 5px 0 3px 0 #19AB98;
+box-shadow: 5px 0 3px 0 #19AB98;
+}
+.knav
+{
+    border: 2px #ffffff double;
 }
