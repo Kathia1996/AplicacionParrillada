@@ -12,22 +12,12 @@
     </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/aplicacionparrilladab/Vistas/cabecera.php</file>
-            <file>file:/C:/xampp/htdocs/aplicacionparrilladab/Vistas/welcome/principal.php</file>
-            <file>file:/C:/xampp/htdocs/aplicacionparrilladab/Controlador/indexControlador.php</file>
-            <file>file:/C:/xampp/htdocs/aplicacionparrilladab/Aplicacion/Request.php</file>
-            <file>file:/C:/xampp/htdocs/aplicacionparrilladab/mvc/Entidades/view_menupadres.php</file>
-            <file>file:/C:/xampp/htdocs/aplicacionparrilladab/Controlador/trabajadorControlador.php</file>
-            <file>file:/C:/xampp/htdocs/aplicacionparrilladab/vendor/composer/autoload_files.php</file>
-            <file>file:/C:/xampp/htdocs/aplicacionparrilladab/mvc/Repositorio/UsuariosRepositorie.php</file>
-            <file>file:/C:/xampp/htdocs/aplicacionparrilladab/Vistas/index/index.php</file>
-            <file>file:/C:/xampp/htdocs/aplicacionparrilladab/Vistas/index/principal.php</file>
-            <file>file:/C:/xampp/htdocs/aplicacionparrilladab/Controlador/ventasControlador.php</file>
-            <file>file:/C:/xampp/htdocs/aplicacionparrilladab/Controlador/welcomeControlador.php</file>
-            <file>file:/C:/xampp/htdocs/aplicacionparrilladab/Controlador/usuariosControlador.php</file>
-            <file>file:/C:/xampp/htdocs/aplicacionparrilladab/Vistas/index/js/funcion.js</file>
-            <file>file:/C:/xampp/htdocs/aplicacionparrilladab/mvc/Entidades/view_menuhijos.php</file>
-            <file>file:/C:/xampp/htdocs/aplicacionparrilladab/Aplicacion/Config.php</file>
+            <file>file:/C:/xampp/htdocs/AplicacionParrillada/Vistas/evento/index.php</file>
+            <file>file:/C:/xampp/htdocs/AplicacionParrillada/mvc/Repositorio/Tipo_PagoRepositorie.php</file>
+            <file>file:/C:/xampp/htdocs/AplicacionParrillada/mvc/Entidades/Tipo_Pago.php</file>
+            <file>file:/C:/xampp/htdocs/AplicacionParrillada/Vistas/index/js/funcion.js</file>
+            <file>file:/C:/xampp/htdocs/AplicacionParrillada/Controlador/eventoControlador.php</file>
+            <file>file:/C:/xampp/htdocs/AplicacionParrillada/Vistas/trabajador/index.php</file>
         </group>
     </open-files>
 </project-private>

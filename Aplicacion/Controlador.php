@@ -24,6 +24,15 @@ abstract class Controlador {
         $data['option'] = $p['option'];
         $this->_vista->renderizarPartial('main/_Select',$data);
     }
+       public function Pagination($p) {
+
+        $data = array();
+        $data['rows'] = $p['rows'];
+        $data['query'] = $p['query'];
+        $data['url'] = $p['url'];
+        $data['order'] = $p['order'];
+         $this->_vista->renderizarPartial('main/_Pagination',$data);
+    }
 
     protected function loadModel($modelo) {
         $ruta = ROOT . 'mvc' . DS . 'Entidades' . DS . $modelo . '.php';

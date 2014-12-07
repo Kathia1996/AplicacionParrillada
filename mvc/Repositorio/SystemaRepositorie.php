@@ -76,7 +76,7 @@ $hijos = view_menuhijos::where('idpadre', '=', $valor->idmodulo) ->where('idperf
             $m=$m.'</a>';
            $m=$m.'</li>';
         } else { $valoridmodulo=$value['texto'];
-            $m=$m.'<li id="mod_'.$value['texto'].'">';//dando valor al id del modulo
+            $m=$m.'<li id="mod_'.$value['texto'].'">'; //dando valor al id del modulo
                 $m=$m.'<a href="#" class="dropdown-toggle">';
                     $m=$m.'<i class="'.$value['icon'].'"></i>';
                     $m=$m.'<span class="menu-text">'.$value['texto'].'</span>';

@@ -99,10 +99,7 @@
             </select>
         </div>
         <div class="form-group">
-            <p>Date: <input type="text" id="datepicker" size="30"></p>
-            <script>
-                
-            </script>
+            <p>Fecha de Nacimiento: <input type="text" id="datepicker" size="30"></p>
         </div>
         <br>
         <center><input type="button" value="REGISTRAR" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only"></center>

@@ -28,5 +28,6 @@ var url = function(page)
 } 
 $(function () {
                     $("#datepicker").datepicker();      
-                     
                 });
+                
+$( "#select-evento" ).selectmenu();

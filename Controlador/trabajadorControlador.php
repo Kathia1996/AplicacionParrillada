@@ -5,7 +5,7 @@
  * Date: 17/10/14
  * Time: 05:23 PM
  */
-use mvc\Repositorio\UsersRepositorie;
+use mvc\Repositorio\EventoRepositorie;
 class trabajadorControlador extends Controlador{
 
     protected $userRepo;
@@ -18,6 +18,10 @@ class trabajadorControlador extends Controlador{
     public function index()
     {
         echo "soy el controlador del trabajador y luego voy a cargar mi vista";
+        $ev= new EventoRepositorie();
+        $data['eventos']=$ev->select();
+        $this->_vista->renderizarPartial('index',$data);
+        
     }
 
     public function show($id)
